@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #faf9f6;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #37352f;
+    background-color: #faf9f6;
+  }
+}
+
+@layer utilities {
+  .timer-ring {
+    transition: stroke-dashoffset 1s linear;
+  }
+}
